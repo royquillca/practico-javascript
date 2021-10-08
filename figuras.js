@@ -8,7 +8,7 @@ console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
 const perimetroCuadrado  = 4*ladoCuadrado;
 console.log("El perímetro del cuadrado es: " + perimetroCuadrado + "cm^2");
 
-const areaCuadrado  =  Math.pow(areaCuadrado, 2);
+const areaCuadrado  =  Math.pow(ladoCuadrado, 2);
 console.log("El área del cuadrado es: " + areaCuadrado + "cm^2");
 
 console.groupEnd();
@@ -57,6 +57,3 @@ console.log("El perímetro de la circunferencia/circulo es: " +  perimetroCircul
 //Area
 const areaCirculo = PI*Math.pow(radioCirculo, 2);
 console.log("El area del circulo es: " + areaCirculo + "cm^2");
-
-console.group();
-
