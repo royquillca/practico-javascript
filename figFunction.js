@@ -43,3 +43,14 @@ function areaCirculo(radio) {
  }
 // console.log("El area del circulo de radio igual a " + radio + ", tiene un perímetro de "+ perimetroCirculo + ", y un área de "+ areaCirculo );
 console.groupEnd();
+
+
+// Aqui empezamos a interactuar con el HTML figuras.html
+function calcularPerimetroCuadrado(params) {
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+    
+}
+function calcularAreaCuadrado(params) {
+    
+}
