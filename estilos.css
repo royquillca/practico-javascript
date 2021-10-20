@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+.challenge-title{
+    color: #ffff;
+    background-color: rgb(138, 11, 189);
+    height: 40px;
+    width: auto;
+    padding: 3px;
+    text-align:center;
+
+}
+.challenge-description {
+    color: cornsilk;
+    background-color: darkmagenta;
+    height: 6rem;
+    padding: 5px;
+    text-align:justify;
+}
+label {
+    display: block;
+}
+.geometric-figure{
+    font-size: 2.0rem;
+    margin-top: 3px;
+    
+}
+.figure-title {
+    font-size: 1.3rem;
+    color: darkorange;
+
+}
+
