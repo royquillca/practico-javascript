@@ -18,3 +18,9 @@ function calcularAreaTriangulo() {
     const area = areaTriangulo(ladoIgual, base);
     alert(area);
 }
+
+
+
+function altura(lado1, lado2, base) {
+    if(lado1 == lado2 && lado1 != base)
+}
