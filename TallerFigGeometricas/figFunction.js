@@ -113,4 +113,3 @@ function calcularAreaTrapecio() {
     alert(area);
 }
 
-

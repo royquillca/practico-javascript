@@ -37,13 +37,18 @@ const perimetroTriangulo = ladoTriangulo1+ladoTriangulo2+baseTriangulo;
 console.log("El perímetro del triángulo es: " + perimetroTriangulo + "cm^2");
 
 const areaTriangulo = (baseTriangulo*alturaTriangulo)/2;
+
 /* Uso de los parentesis es una de las buenas prácticas:
 Primero ejecuta las operaciones dentro de los paréntesis
 console.log("El area del triángulo es:" + areaTriangulo + "cm^2");
 */
+
 console.groupEnd();
+
+
 // CODIGO DEL CIRCULO
-console.group("Circulo");
+
+console.group("Circulo"); //Agrupando el código de Círculo.
 // Radio
 const radioCirculo = 4;
 console.log("El radio del circulo es: " + radioCirculo + "cm");
@@ -55,7 +60,7 @@ console.log("El diametro del circulo es: " + diametroCirculo + "cm");
 const PI = Math.PI;
 console.log("PI tiene un valor de: " + PI);
 //circunferencia
-const perimetroCirculo = 2*PI*radioCirculo;
+const perimetroCirculo = 2*PI*radioCirculo; //Puede tambien ser=> diametroCiculo*PI
 console.log("El perímetro de la circunferencia/circulo es: " +  perimetroCirculo + "cm");
 //Area
 const areaCirculo = PI*Math.pow(radioCirculo, 2);
