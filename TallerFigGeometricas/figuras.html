@@ -20,6 +20,7 @@
 
     <!-- CUADRADO -->
     <h2 class="figure-title square">Calculo del area y perímetro del Cuadrado</h2>
+    <!-- El id="" del input es correpondiente/igual al for="" del label así que deben ser los mismos, eso permitira que cada vez que demos click en el input se ejecute la operacion que programemos de JS -->
     <form class="geometric-figure">
         <label for="InputCuadrado">Escribe cuanto mide cada lado del cuadrado:</label>
         <input id="InputCuadrado" type="number">
@@ -57,6 +58,20 @@
         <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
         <button type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
     </form>
+    <!-- TRAPECIO -->
+    <form class="geometric-figure">
+        <h2 class="figure-title">Cálculo del área del Trapecio</h2>
+        <label for="InputLongBase">Esrcibe la base mayor (B)</label>
+        <input type="number" id="InputLongBase">
+        <label for="InputSmallBase">Escribe la base menor (b)</label>
+        <input type="number" id="InputSmallBase">
+        <label for="InputHeight">Escribe la altura (h)</label>
+        <input type="number" id="InputHeight">
+
+        <button type="button" onclick="calcularAreaTrapecio()">Calcular area</button>
+
+    </form>
+
 </section>
 
 

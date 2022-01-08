@@ -1,4 +1,15 @@
+/**Funciones:
+ *  - Permiten recibir parámetros.
+ *  - Los parámetros son varibales que recibimos para que en un futuro lo llamemos con un argumento.
+ *  - Parametro es el que se recibe y el argumento es aquel valor que se da a la funcion cuand se llama.
+ *   -----Definiendo funciones: --------
+ *          function sumar(parametro1, parametro2) { ..... }
+ *  -------LLamando funciones -----------
+ *           sumar(argumento1, argumento2)
+ */
+
 // Codigo del Cuadrado
+
 console.group("Cuadrado");
 
 function areaCuadrado(lado){
@@ -34,8 +45,9 @@ console.group("Circulo");
 function diametroCirculo(radio) {
     return 2*radio;
 }
+
 function perimetroCirculo(radio) {
-    const diametro = diametroCirculo(radio);
+    const diametro = diametroCirculo(radio); //Lllamando una funcion dentro de otra
     return diametro*Math.PI;
 }
 function areaCirculo(radio) {
@@ -44,8 +56,11 @@ function areaCirculo(radio) {
 // console.log("El area del circulo de radio igual a " + radio + ", tiene un perímetro de "+ perimetroCirculo + ", y un área de "+ areaCirculo );
 console.groupEnd();
 
+function areaTrapecio(baseMenor, baseMayor, altura) {
+    return (baseMenor + baseMayor)*altura*0.5
+}
 
-// Aqui empezamos a interactuar con el HTML figuras.html
+// Aqui empezamos a interactuar con el HTML figuras.html HTML
 
 /**CUADRADO */
 function calcularPerimetroCuadrado() {
@@ -88,3 +103,14 @@ function calcularAreaCirculo() {
     const area = areaCirculo(radio);
     alert(area);
 }
+
+/** TRAPRECIO */
+function calcularAreaTrapecio() {
+    const base1 = parseFloat(document.getElementById("InputLongBase").value);
+    const base2 = parseFloat(document.getElementById("InputSmallBase").value);
+    const height = parseFloat(document.getElementById("InputHeight").value);
+    const area = (base1 + base2)*height*0.5
+    alert(area);
+}
+
+

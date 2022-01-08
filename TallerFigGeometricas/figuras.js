@@ -1,6 +1,6 @@
 //CÓDIGO DEL CUADRADO
 
-console.group("Cuadrado");
+console.group("Cuadrado"); //Funcion que permite agrupar mensajes de los console.log() cada console.group("Gruoup Name") y console.groupEnd()
 
 const ladoCuadrado = 5;
 console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
@@ -20,6 +20,7 @@ console.group("Triángulo");
 const ladoTriangulo1 = 6;
 const ladoTriangulo2 = 6;
 const baseTriangulo = 5;
+//LLa identacion permite la legibilidad del código
 console.log(
     "Los lado del triángulo miden: "
     + ladoTriangulo1
@@ -35,9 +36,11 @@ console.log("La altura del triangulo es: " + alturaTriangulo + "cm");
 const perimetroTriangulo = ladoTriangulo1+ladoTriangulo2+baseTriangulo;
 console.log("El perímetro del triángulo es: " + perimetroTriangulo + "cm^2");
 
-const areaTriangulo = (baseTriangulo*alturaTriangulo)/2; // Primero ejecuta las operaciones dentro de los paréntesis
+const areaTriangulo = (baseTriangulo*alturaTriangulo)/2;
+/* Uso de los parentesis es una de las buenas prácticas:
+Primero ejecuta las operaciones dentro de los paréntesis
 console.log("El area del triángulo es:" + areaTriangulo + "cm^2");
-
+*/
 console.groupEnd();
 // CODIGO DEL CIRCULO
 console.group("Circulo");
